@@ -4,7 +4,7 @@
 
 Make two network namespaces using 'red' and 'green' names, connect them with a bridge, and check connectivity. You have to successfully ping Google's public IP from those network namespaces. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/33e3c75a-f50a-42f8-a97c-331d37626287/27056248-fd22-4abb-8c67-1524c8da7233/Untitled.png)
+![Untitled](https://github.com/HasanTareq73/DevOps_Career_Track_Projects/blob/main/Project-2.png)
 
 ### **Introduction**
 
