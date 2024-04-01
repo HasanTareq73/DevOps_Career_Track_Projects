@@ -92,3 +92,6 @@ root@ip-172-31-88-100:/home/ubuntu$ sudo ip route add default via veth-green
 ```
 
 ### Step-08: Need to configure NAT for NameSpace
+```bash
+ubuntu@ip-172-31-88-100:~$ sudo iptables -t nat -A POSTROUTING -s 192.168.200.0/24 ! -o Bridge-SW -j MASQUERADE
+```
